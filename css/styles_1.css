@@ -180,13 +180,57 @@ nav ul li a {
     width: unset;
     object-fit: unset;
 }
+a{
+    text-decoration: none;
+}
+.footer{
+    background-color: #444444;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    padding: 3%;
+}
+img{
+    width: 100%;
+}
+.icon, .log{
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+}
+.icon>div>a>img{
+    width: 40px;
+    object-fit: unset;
+}
+.log>div>img{
+    margin: 20% 0 0.5% 0;
+    height: 40%;
+    object-fit: unset;
+}
+.head{
+    padding: 5% ;
+    text-align: center;
+}
+.head .navv>a{
+    color: #ffffff;
+}
+.navv{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+.head>p{
+    color: #ffffff;
+}
 
 @media screen and (min-width: 850px) {
     .top {
         padding-top: 2%;
         max-height: unset;
     }
-
     .logo {
         width: 130px;
     }
@@ -281,5 +325,11 @@ nav ul li a {
     .b-btm::after {
         width: 70px;
         margin: 10px auto;
+    }
+    .grid_container{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        justify-content: space-between;
+        padding: 3%;
     }
 }
