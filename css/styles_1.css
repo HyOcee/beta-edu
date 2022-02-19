@@ -1,31 +1,32 @@
 .top {
-    height: 100vh;
-    min-height: 500px;
-    max-height: 500px;
-    position: relative;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/bg.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 500px;
+  max-height: 500px;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/beta_book.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    width: 16%;
+  width: 16%;
 }
 
 nav button {
-    width: 30px;
-    border-radius: 10px;
-    border: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
+  width: 30px;
+  border-radius: 10px;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 }
 
 /* nav button img {
@@ -33,54 +34,55 @@ nav button {
 } */
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-nav ul li  {
-    list-style: none;
-    margin-left: 3.5rem;
+nav ul li {
+  list-style: none;
+  margin-left: 3.5rem;
 }
 
 nav ul li a {
-    color: inherit;
-    text-decoration: none;
-    font-size: 1.8rem;
+  color: inherit;
+  text-decoration: none;
+  font-size: 2.5rem;
 }
 
 .title {
-    width: 85%;
+  width: 85%;
 }
 
 /* format title spacing */
 .title h1 {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* section with bg-img */
 .bg-img {
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/bg.svg');
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/Images/hand-g18b3bfb13_1920.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .stats {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .img-f {
-    height: 450px;
+  height: 450px;
 }
 
 .stats .col-2 {
-    width: 50%;
-    font-size: 1.5rem;
+  width: 50%;
+  font-size: 1.5rem;
 }
 
 .sub-topic {
-    text-align: center;
+  text-align: center;
 }
 
 /* car price cards */
@@ -98,13 +100,99 @@ nav ul li a {
     margin-bottom: 10px;
 }
 
+/* section for form */
+.the-form{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/edu-image.jpg);
+    background-repeat: none;
+    background-position: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.theform{
+    padding: 5%;
+}
+
+.theform > div {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.register{
+    text-align: center;
+    background-color: #a30000;
+    padding: 20px;
+}
+.register h3{
+    font-size: 4rem;
+}
+
+.theform form{
+    padding: 5%;
+    background-color:white ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input,textarea{
+    outline: 0;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    border: 0;   
+    border-bottom:  1px solid rgb(97, 97, 97);
+}
+.theform form input {
+    width: 45%;
+}
+
+.theform form textarea {
+    width: 100%;
+}
+.theform form button{
+    width: 50%;
+    font-size: 2rem;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #a30000;
+}
+
+.headies {
+    text-align: center;
+}
+
+.cont--{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.talk{
+   text-align: center;
+}
+
+.talk h3 {
+    margin-bottom: 2rem;
+}
+
+.talk h3.number {
+    font-size: 5rem;
+}
+
+.stats h3{
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+.stats h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
 /* margin to replace image space */
- h3:nth-child(3) {
-    margin-top: 150px;
+h3:nth-child(3) {
+  margin-top: 150px;
 }
 .card h3
 .bg-2 button {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .card img{
@@ -113,11 +201,11 @@ nav ul li a {
     object-fit: cover;
 }
 .car-details {
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-top: 16px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 16px;
 }
 
 #book-subtitle, #book-subtitle-title, .card h3{
@@ -128,67 +216,114 @@ nav ul li a {
 }
 /* set height for driver info and center content */
 .driver-info {
-    height: 70px;
-    padding: 2% 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  height: 70px;
+  padding: 2% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.car-details, .driver-info {
-    font-size: 1.6rem;
+.car-details,
+.driver-info {
+  font-size: 1.6rem;
 }
 
-.car-details .bl, .driver-name {
-    font-size: 1.8rem;
+.car-details .bl,
+.driver-name {
+  font-size: 1.8rem;
 }
 
 .card .bl-btn {
-    width: 100%;
-    height: 44px;
+  width: 100%;
+  height: 44px;
 }
 
 /* Gallery */
 .gallery-options {
-    width: 80%;
-    justify-content: space-around;
-    align-items: flex-start;
-    font-size: 2rem;
-    margin: 35px auto;
+  width: 80%;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-size: 2rem;
+  margin: 35px auto;
 }
 
 .active-bl {
-    padding-bottom: 15px;
-    border-bottom: 3px solid;
+  padding-bottom: 15px;
+  border-bottom: 3px solid;
 }
 
 /* classes with border-bottoms */
 .b-btm::after {
-    content: " ";
-    display: block;
-    width: 35px;
-    margin: 6px auto;
-    border-top: 3px solid #2131B6;
+  content: " ";
+  display: block;
+  width: 25px;
+  border-radius: 5px;
+  margin: 6px auto;
+  border-top: 3px solid #2131b6;
 }
 
-
 .socials {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
-    padding: 0 30%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #2131B6;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  padding: 0 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2131b6;
 }
 
 .socials img {
-    height: unset;
-    width: unset;
+  height: unset;
+  width: unset;
+  object-fit: unset;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    background-color: #444444;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    padding: 3%;
+}
+img{
+    width: 100%;
+}
+.icon, .log{
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+}
+.icon>div>a>img{
+    width: 40px;
     object-fit: unset;
+}
+.log>div>img{
+    margin: 20% 0 0.5% 0;
+    height: 40%;
+    object-fit: unset;
+}
+.head{
+    padding: 5% ;
+    text-align: center;
+}
+.head .navv>a{
+    color: #ffffff;
+}
+.navv{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+.head>p{
+    color: #ffffff;
 }
 
 @media screen and (min-width: 850px) {
@@ -196,12 +331,11 @@ nav ul li a {
         padding-top: 2%;
         max-height: unset;
     }
-
     .logo {
         width: 130px;
     }
 
-    nav ul {
+  nav ul {
     padding-top: 1rem;
     }
 
@@ -291,5 +425,11 @@ nav ul li a {
     .b-btm::after {
         width: 70px;
         margin: 10px auto;
+    }
+    .grid_container{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        justify-content: space-between;
+        padding: 3%;
     }
 }
