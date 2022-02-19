@@ -22,32 +22,32 @@ h5 {
 
 /* the beat chaffeur company */
 h1 {
-  font-size: 3.2rem;
+  font-size: 4rem;
   margin: 3.5rem 0;
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 4rem;
   margin: 2.7rem 0 2.5rem;
 }
 
 /* car details, show all */
 h3 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /* who we are */
 h4 {
-  font-size: 1.4rem;
+  font-size: 2.5rem;
 }
 
 /* names */
 h5 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 /* white text */
@@ -97,10 +97,11 @@ p {
 /* blue buttons */
 .bl-btn {
   background-color: #2131b6;
+  border-radius: 5px;
   color: #ffffff;
   font-size: 1.4rem;
   border: 0;
-  width: 158px;
+  width: 1px;
   height: 46px;
   margin-top: 3rem;
 }
@@ -147,16 +148,16 @@ img {
   }
 
   h4 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   h5 {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
   }
 
   ul li a,
   p {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
   }
 
   /* columns with half of parent's width */
