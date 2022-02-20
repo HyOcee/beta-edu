@@ -106,6 +106,12 @@ function myFunction(){
 
 setInterval(myFunction, speed);
 
-function myFunction(){
-  document.getElementById("myDropdown").classList.toogle("show")
+function dropDown(item){
+  item.innerHTML += `
+      <div class="drop_content">
+          <div>Link</div>
+          <div>Link</div>
+          <div>Link</div>
+      </div>
+  `
 }

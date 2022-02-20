@@ -326,25 +326,22 @@ img{
     font-size: 1.3rem;
 }
 
+.drop_btn {
+  position: relative;
+}
+
 .drop_content{
-  background-color: black;
+  font-size: 2rem;
   color: white;
-  display: none;
   position: absolute;
   z-index: 1;
 }
 
-.drop_content a{
-  text-decoration: none;
-  padding: 16px;
-}
-
-.drop_content a:hover{
-  background-color: #ddd;
-}
-
-.show{
-  display: block;
+.drop_content div {
+  width: 100%;
+  padding: 1rem;
+  background-color: #a30000ca;
+  margin-bottom: 0.5rem;
 }
 
 @media screen and (min-width: 850px) {
