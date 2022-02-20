@@ -105,3 +105,11 @@ function myFunction(){
 }
 
 setInterval(myFunction, speed);
+
+function formButton(){
+  document.getElementById('divform').innerHTML =
+  `<h4> REGISTRATION COMPLETED!!!</h4> <br>
+  <h4>THANKS FOR CHOOSING BETA-LIBRARY</h4>`
+  document.getElementById('divform').style.color='white'
+  document.getElementById('divform').style.fontSize='3rem'
+}
