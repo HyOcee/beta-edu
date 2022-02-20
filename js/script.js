@@ -107,11 +107,9 @@ function myFunction(){
 setInterval(myFunction, speed);
 
 function dropDown(item){
-  item.innerHTML += `
-      <div class="drop_content">
-          <div>Link</div>
-          <div>Link</div>
-          <div>Link</div>
-      </div>
-  `
+  item.lastElementChild.style.display = 'block'
+}
+
+function dropDownHide(item){
+  item.lastElementChild.style.display = 'none'
 }

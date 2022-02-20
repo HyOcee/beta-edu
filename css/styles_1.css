@@ -331,17 +331,22 @@ img{
 }
 
 .drop_content{
+  width: 150px;
   font-size: 2rem;
   color: white;
   position: absolute;
   z-index: 1;
+  display: none;
 }
 
 .drop_content div {
-  width: 100%;
   padding: 1rem;
   background-color: #a30000ca;
   margin-bottom: 0.5rem;
+}
+
+.show {
+  display: block;
 }
 
 @media screen and (min-width: 850px) {
