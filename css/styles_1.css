@@ -67,6 +67,9 @@ nav ul li a {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.waw{
+  color: #a30000;
+}
 
 .stats {
   align-items: flex-start;
@@ -85,7 +88,7 @@ nav ul li a {
   text-align: center;
 }
 
-/* car price cards */
+/* price cards */
 .card {
     padding: 8.5rem 3rem 5rem;
     background-color: white;
@@ -93,7 +96,7 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-/* position car image on the card */
+/* position image on the card */
 .img-card {
     width: 100%;
     height: 250px;
@@ -153,6 +156,14 @@ input,textarea{
     font-size: 2rem;
     margin: 0 auto;
     background-color: #a30000;
+}
+.innerHTML h2,h4{
+    color: #ffffff;
+    font-style: italic;
+    font-stretch: condensed;
+    line-height: 50px;
+    text-align: center;
+
 }
 
 .headies {
