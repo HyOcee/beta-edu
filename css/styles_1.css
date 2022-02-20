@@ -157,15 +157,6 @@ input,textarea{
     margin: 0 auto;
     background-color: #a30000;
 }
-.innerHTML h2,h4{
-    color: #ffffff;
-    font-style: italic;
-    font-stretch: condensed;
-    line-height: 50px;
-    text-align: center;
-
-}
-
 .headies {
     text-align: center;
 }
@@ -442,4 +433,15 @@ img{
         justify-content: space-between;
         padding: 3%;
     }
+}
+@media screen and (max-width: 380px){
+  .register h3{
+      font-size: 2.5rem;
+  }  
+  .headies h2,h3{
+      font-size: 2.5rem;
+  }
+  .cont-- .talk h3{
+      font-size: 2.2rem;
+  }
 }
