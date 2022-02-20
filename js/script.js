@@ -106,6 +106,10 @@ function myFunction(){
 
 setInterval(myFunction, speed);
 
-function myFunction(){
-  document.getElementById("myDropdown").classList.toogle("show")
+function dropDown(item){
+  item.lastElementChild.style.display = 'block'
+}
+
+function dropDownHide(item){
+  item.lastElementChild.style.display = 'none'
 }
