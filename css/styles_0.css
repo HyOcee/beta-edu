@@ -96,13 +96,12 @@ p {
 
 /* blue buttons */
 .bl-btn {
-  background-color: #2131b6;
-  border-radius: 5px;
+  background-color:  #a30000;
+  border-radius: 10px;
   color: #ffffff;
   font-size: 1.4rem;
   border: 0;
-  width: 1px;
-  height: 46px;
+  padding: 2rem 2.5rem;
   margin-top: 3rem;
 }
 
@@ -177,8 +176,6 @@ img {
 
   .bl-btn {
     font-size: 3rem;
-    width: 330px;
-    height: 100px;
   }
 
   .pd {
