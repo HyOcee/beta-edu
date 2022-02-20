@@ -17,12 +17,19 @@
         </div>
 
         <ul>
-          <li class="desktop"><a href="index.html" class="active">Home</a></li>
-          <li class="desktop"><a href="#">About Us</a></li>
-          <li class="desktop"><a href="#">Our Book Categories</a></li>
+          <li class="desktop" onmouseover="myFunction(this)" class="drop_btn"><a href="index.html" class="active">Home</a></li>
+          <li class="desktop" onmouseover="myFunction(this)" class="drop_btn"><a href="#">About Us</a></li>
+          <li class="desktop" onmouseover="myFunction(this)" class="drop_btn"><a href="#">Our Book Categories</a></li>
 
-          <li class="desktop"><a href="#">Contact</a></li>
-          <li class="desktop"><a href="#">Gallery</a></li>
+          <li class="desktop" onmouseover="myFunction(this)" class="drop_btn"><a href="#">Contact</a></li>
+          <li class="desktop" onmouseover="myFunction(this)" class="drop_btn"><a href="#">Gallery</a></li>
+
+          <div id="myDropdown" class="drop_content">
+            <a href="#">first</a>
+            <a href="#">second</a>
+            <a href="#">third</a>
+          </div>
+
           <li class="mobile">
             <button><img src="images/menu.svg" alt="menu button" /></button>
           </li>
@@ -208,14 +215,6 @@
         </div>
     </div> 
     
-    <div class="dropdown">
-      <button onclick="myFunction()" class="drop_btn">home</button>
-      <div id="myDropdown" class="drop_content">
-          <a href="#">first</a>
-          <a href="#">second</a>
-          <a href="#">third</a>
-      </div>
-  </div>
     <script src="js/script.js"></script>
 </body>
 </html>
