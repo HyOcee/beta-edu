@@ -57,7 +57,7 @@ p {
 
 /* blue text */
 .bl {
-  color: #2131b6;
+  color: #a30000;
 }
 
 /* dark text */
@@ -190,4 +190,10 @@ img {
   .desktop {
     display: block;
   }
+
+  nav ul {
+    padding-top: 1rem;
+    width: 50%;
+    min-width: fit-content;
+    }
 }

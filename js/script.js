@@ -114,3 +114,12 @@ function formButton(){
   document.getElementById('divform').style.fontSize='3rem'
   document.getElementById('divform').style.textAlign = 'center'  
 }
+function dropDown(item){
+  item.firstElementChild.style.backgroundColor = '#a30000ca'
+  item.lastElementChild.style.display = 'block'
+}
+
+function dropDownHide(item){
+  item.firstElementChild.style.backgroundColor = 'unset'
+  item.lastElementChild.style.display = 'none'
+}
