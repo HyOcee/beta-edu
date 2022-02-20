@@ -228,6 +228,7 @@ img{
 }
 .head>p{
     color: #ffffff;
+    font-size: 1.3rem;
 }
 
 @media screen and (min-width: 850px) {
