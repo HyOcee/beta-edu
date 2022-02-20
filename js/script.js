@@ -74,7 +74,7 @@ fetch(url)
         
     });
 let typeWriter = document.getElementById('typeWriter');
-let txt = 'You wanna become part of our writers team?'; /* The text */
+let txt = 'o you want to join our writers??'; /* The text */
 let typeIndex = 0;
 let speed = 350; /* The speed/duration of the effect in milliseconds */
 
@@ -84,7 +84,7 @@ function typeWriterFunction() {
     typeIndex++;
   } else {
       typeIndex = 0;
-      typeWriter.innerHTML = ''
+      typeWriter.innerHTML = 'D'
   }
 }
 
@@ -112,4 +112,5 @@ function formButton(){
   <h4>THANKS FOR CHOOSING BETA-LIBRARY</h4>`
   document.getElementById('divform').style.color='white'
   document.getElementById('divform').style.fontSize='3rem'
+  document.getElementById('divform').style.textAlign = 'center'  
 }
