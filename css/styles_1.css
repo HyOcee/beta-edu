@@ -326,6 +326,37 @@ img{
     font-size: 1.3rem;
 }
 
+
+.drop_btn{
+  background-color: pink;
+  color: white;
+  padding: 16px;
+  cursor: pointer;
+}
+.drop_btn:hover{
+  background-color: aqua;
+}
+.drop_content{
+  background-color: black;
+  color: white;
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.drop_content a{
+  text-decoration: none;
+  padding: 16px;
+}
+.drop_content a:hover{
+  background-color: #ddd;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.show{
+  display: block;
+}
 @media screen and (min-width: 850px) {
     .top {
         padding-top: 2%;

@@ -105,3 +105,7 @@ function myFunction(){
 }
 
 setInterval(myFunction, speed);
+
+function myFunction(){
+  document.getElementById("myDropdown").classList.toogle("show")
+}
