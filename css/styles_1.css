@@ -307,7 +307,8 @@ img{
 
 .drop_content{
   width: 100%;
-  font-size: 1.4rem;
+  min-width: fit-content;
+  font-size: 1.6rem;
   color: white;
   position: absolute;
   z-index: 1;
@@ -319,6 +320,7 @@ img{
   padding: 0.5rem;
   background-color: #8d8a8aa3;
   margin-bottom: 0.5rem;
+  min-width: fit-content;
 }
 
 .show {
@@ -357,7 +359,7 @@ img{
 
     /* full page images */
     .img-f {
-        height: 800px;
+        height: 500px;
     }
 
     /* driver images */
