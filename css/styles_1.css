@@ -43,8 +43,8 @@ nav ul li {
 nav ul li a {
   color:inherit;
   text-decoration: none;
-  font-size: 2.5rem;
-  padding: 2rem;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 .title {
@@ -307,17 +307,17 @@ img{
 
 .drop_content{
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: white;
   position: absolute;
   z-index: 1;
   display: none;
-  top: 6rem;
+  top: 4rem;
 }
 
 .drop_content div {
-  padding: 1rem;
-  background-color: #a30000ca;
+  padding: 0.5rem;
+  background-color: #8d8a8aa3;
   margin-bottom: 0.5rem;
 }
 
@@ -340,7 +340,7 @@ img{
     }
 
     nav ul li > a.active {
-        background-color: #a30000;
+        background-color: #8d8a8aa3;
     }
 
     .title {
